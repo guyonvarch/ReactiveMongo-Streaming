@@ -4,8 +4,6 @@ import Dependencies._
 
 organization in ThisBuild := "org.reactivemongo"
 
-version in ThisBuild := s"${Common.nextRelease}-SNAPSHOT"
-
 scalaVersion in ThisBuild := "2.11.8"
 
 crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.1")
